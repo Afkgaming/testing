@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage("Testing"){
 			steps {
-				echo "Test successful!"
+				echo "Test-branch successful!"
 			}
 		}
 	}
