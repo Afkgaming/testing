@@ -1,10 +1,4 @@
-pipeline {
-	agent any
-	stages {
-		stage("Testing"){
-			steps {
-				echo "Test-branch successful!"
-			}
-		}
-	}
-}
+// Jenkinsfile
+//@Library('testing')
+
+testing(currentBuild.getNumber())
